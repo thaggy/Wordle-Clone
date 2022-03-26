@@ -18,5 +18,5 @@ a letter that is in the wrong spot but is in the word, is O(N^2). I used a simpl
 
 
 ## Controls
- As this is a simple wordle game, the controls are all of the alphabet keys, A - Z, however I added two more buttons, 1 and 2. By pressing 1, you reset the game and 
- by pressing 2 you can see what the word is automatically.
+ As this is a simple wordle game, the controls are all of the alphabet keys, A - Z, and backspace to delete letters that you have guessed. However I added two more buttons, 1 and 2. By pressing 1, you reset the game and 
+ by pressing 2 you can see what the word is automatically. 
