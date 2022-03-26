@@ -10,7 +10,7 @@ a hash in oder to access whether or not it is a valid guess in an average of O(1
 a letter that is in the wrong spot but is in the word, is O(N^2). I used a simple brute force algorithm as N is always a very small number and never adds much complexity.
 
 ## To Be Added
-- Random Guess
+- Random Guess Button
 - AI that solves puzzle
 - Keyboard UI
 - Uploading to Web so that it can be played
