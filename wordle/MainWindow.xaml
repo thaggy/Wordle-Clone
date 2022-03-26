@@ -1,0 +1,29 @@
+﻿<Window x:Class="wordle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wordle"
+        mc:Ignorable="d"
+        Title="Worlde" Height="600" Width="500" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" Background="#FF212121" WindowStartupLocation="CenterScreen">
+    <Grid Name="mainGrid">
+        <!-- Grid Columns (5 like in game)-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <!-- Grid Rows (6 guesses in game)-->
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+       
+    </Grid>
+</Window>
